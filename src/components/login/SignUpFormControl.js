@@ -25,6 +25,7 @@ export default function SignUpFormControl() {
                 className="form-control"
                 id="floatingInput"
                 placeholder="name@example.com"
+                required
               />
               <Form.Label for="floatingInput">Email address</Form.Label>
             </Form.Group>
@@ -43,7 +44,6 @@ export default function SignUpFormControl() {
                 placeholder="password"
                 id="confirmPassword floatingInput"
                 required
-                
               />
               <Form.Label for="floatingInput">Confirmar Contraseña</Form.Label>
             </Form.Group>
@@ -64,7 +64,7 @@ export default function SignUpFormControl() {
                   <Form.Control
                     type="text"
                     placeholder="Name"
-                    id="name floatingInput"
+                    id="lastname floatingInput"
                     required
                   />
                   <Form.Label for="floatingInput">Apellido</Form.Label>
@@ -72,7 +72,28 @@ export default function SignUpFormControl() {
               </Col>
             </Row>
             <Row>
+              <Col>
+                <Form.Group className="form-floating">
+                  <Form.Control
+                    type="date"
+                    placeholder="Cumpleaños"
+                    id="date floatingInput"
+                    required
+                  />
+                  <Form.Label for="floatingInput">Fecha nacimiento</Form.Label>
+                </Form.Group>
+              </Col>
+              <Col>
+                <Form.Group>
+                  <Form.Select aria-label="Default select example" className={style.custom_select}>
+                    <option value="null">Elija el Sexo</option>
+                    <option value="1">Femenino</option>
+                    <option value="2">Masculino</option>
+                  </Form.Select>
+                </Form.Group>
+              </Col>
             </Row>
+
             <Form.Group className="d-flex justify-content-end align-items-end mt-5">
               <Button className="btn-primary" type="submit">
                 Crear Usuario

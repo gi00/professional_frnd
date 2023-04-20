@@ -54,6 +54,10 @@
   margin:80px
 }
 
+.custom_select{
+  height: calc(3.5rem + 2px);
+}
+
 
 
 

@@ -8,8 +8,13 @@ import NavBar from "@/components/login/Navbar.js";
 
 const rubik = Rubik({ subsets: ['latin'] })
 
-export default function Home() {
+export default function Landing() {
   return (
-    <NavBar />
+    <main className="container bg-lihgt">
+      <NavBar />
+    <h1>Landing Page</h1>  
+    </main>
+    
+    
   )
 }

@@ -12,12 +12,12 @@ import { digitalMedia } from "@/data/index.js";
 export default function NavBar() {
   return (
     <>
-      <Navbar bg="light" fluid>
-        <Container>
-          <Navbar.Brand href="#home">
+      <Navbar bg="light" fluid="true">
+        <Container className="p-0">
+          <Navbar.Brand href="/">
             <Image
               src={digitalMedia.logo.src}
-              className="d-inline-block align-top"
+              className="d-inline-block align-top p-0 m-0"
               alt="React Bootstrap logo"
             />
           </Navbar.Brand>
