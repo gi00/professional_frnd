@@ -1,6 +1,9 @@
 import axios from "axios";
 
 export const postSignUp = async (data) => {
+
+ 
+
   
   try{
     const axiosConfig = axios.create({

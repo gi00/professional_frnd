@@ -1,7 +1,7 @@
 body{
   height: 100vh;
   width: 100vw;
-  background-color: #f8f9fa;
+  background-color: #f8f9fa!important;
 }
 
 .body-login{
@@ -16,3 +16,26 @@ html{
   background-color: #1d77ff!important;
 }
 
+.modal-title svg{
+  color:#E33922
+}
+
+.landing{
+  margin-top:48px;
+  color: #37383E!important;
+}
+
+.landing span {
+  opacity: 0.95;
+}
+
+.landing a{
+  font-size: 1.2rem!important;
+  padding: 8px 32px!important;
+}
+
+.landing-img{
+  filter: hue-rotate(10deg);
+  border-radius: 8px;
+  z-index: -1;
+}

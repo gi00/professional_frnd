@@ -27,7 +27,7 @@ export default function SignUpFormControl() {
                 placeholder="name@example.com"
                 required
               />
-              <Form.Label for="floatingInput">Email address</Form.Label>
+              <Form.Label htmlFor="floatingInput">Email address</Form.Label>
             </Form.Group>
             <Form.Group className="form-floating mb-3">
               <Form.Control
@@ -36,7 +36,7 @@ export default function SignUpFormControl() {
                 id="password  floatingInput"
                 required
               />
-              <Form.Label for="floatingInput">Contraseña</Form.Label>
+              <Form.Label htmlFor="floatingInput">Contraseña</Form.Label>
             </Form.Group>
             <Form.Group className="form-floating mb-3">
               <Form.Control
@@ -45,7 +45,7 @@ export default function SignUpFormControl() {
                 id="confirmPassword floatingInput"
                 required
               />
-              <Form.Label for="floatingInput">Confirmar Contraseña</Form.Label>
+              <Form.Label htmlFor="floatingInput">Confirmar Contraseña</Form.Label>
             </Form.Group>
             <Row className="mb-3">
               <Col>
@@ -56,7 +56,7 @@ export default function SignUpFormControl() {
                     id="name floatingInput"
                     required
                   />
-                  <Form.Label for="floatingInput">Nombre</Form.Label>
+                  <Form.Label htmlFor="floatingInput">Nombre</Form.Label>
                 </Form.Group>
               </Col>
               <Col>
@@ -67,7 +67,7 @@ export default function SignUpFormControl() {
                     id="lastname floatingInput"
                     required
                   />
-                  <Form.Label for="floatingInput">Apellido</Form.Label>
+                  <Form.Label htmlFor="floatingInput">Apellido</Form.Label>
                 </Form.Group>
               </Col>
             </Row>
@@ -80,7 +80,7 @@ export default function SignUpFormControl() {
                     id="date floatingInput"
                     required
                   />
-                  <Form.Label for="floatingInput">Fecha nacimiento</Form.Label>
+                  <Form.Label htmlFor="floatingInput">Fecha nacimiento</Form.Label>
                 </Form.Group>
               </Col>
               <Col>

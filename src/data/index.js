@@ -3,6 +3,7 @@ import svgLogo from '../../public/logo.svg'
 import imgLogoLight from '../../public/assets/img/imagotype_light.png'
 import svgMicrosoft from '../../public/assets/svg/microsoft.svg'
 import svgGoogle from '../../public/assets/svg/google.svg'
+import imgProfessional from '../../public/assets/img/salud_mental.png'
 
 export const digitalMedia = {
   authMedia:{
@@ -28,6 +29,11 @@ export const digitalMedia = {
     src: svgGoogle,
     title:"Google",
     alt:"google"
-  }
+  },
+  saludMental:{
+    src: imgProfessional,
+    title:"Salud Mental",
+    alt:"salud-mental"
+  },
 }
 
