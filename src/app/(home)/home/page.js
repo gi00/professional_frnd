@@ -1,7 +1,18 @@
+import style from "../Home.module.css";
+import Card from "@/components/Home/Card.js";
 
-
-export default function Home(){
+export default function Home() {
   return (
-    <h1>Aquí va todo el main</h1>
-  )
+    <section role="principal content" className={style.section}>
+      <h1>Home</h1>
+
+      <div className="conainer">
+        <div className="row ">
+          <div className="col-3">
+            <Card />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }

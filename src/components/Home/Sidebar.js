@@ -9,6 +9,7 @@ import {
   faMessage,
   faClock,
   faCircleXmark,
+  faCalendarDays,
 } from "@fortawesome/free-solid-svg-icons";
 
 import style from "./Home.module.css";
@@ -38,6 +39,11 @@ export default function Saidbar() {
       path: "/history",
       name: "Historial",
     },
+    {
+      icon: faCalendarDays,
+      path: "/dates",
+      name: "Citas",
+    },
   ];
 
   const navigation = navList.map((item) => {
@@ -63,6 +69,8 @@ export default function Saidbar() {
       <nav className={style.header_nav + " w-100"}>
         <div className="list-group">{navigation}</div>
       </nav>
+
+      
       <div className={"list-group w-100"}>
         <button
           type="submit"
