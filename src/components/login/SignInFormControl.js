@@ -7,7 +7,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleExclamation } from "@fortawesome/free-solid-svg-icons";
 
-import { postSignUp } from "@/services/profile.js";
+import { postSignIn } from "@/services/profile.js";
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
@@ -40,7 +40,7 @@ export default function SignInFormControl() {
   //submit form
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const postData = await postSignUp(signInFormData);
+    const postData = await postSignIn(signInFormData);
 
     console.log(postData);
 
