@@ -39,6 +39,7 @@ export default function FormCrearCita() {
       
       <Container>
       <Form.Group className="mb-3" >
+      <Form.Label htmlFor="floatingInput">Email</Form.Label>
         <Form.Control 
           type="email" 
           name="email"
@@ -46,29 +47,31 @@ export default function FormCrearCita() {
           onChange={handleChange}
           required
         />
-        <Form.Label htmlFor="floatingInput">Email</Form.Label>
+        
       </Form.Group>
 
       <Form.Group className="mb-3" c>
+      <Form.Label>Fecha</Form.Label>
       <Form.Control
-       type="fecha"
+       type="date"
        placeholder="YYYY-MM-DD" 
        name ="fecha"
        onChange={handleChange}
        required
        />
-      <Form.Label>Fecha</Form.Label>
+      
       </Form.Group>
 
       <Form.Group className="mb-3" c>
+      <Form.Label>Hora</Form.Label>
       <Form.Control 
-       type="hora"
+       type="time"
        placeholder="00:00" 
        name = "hora"
        onChange={handleChange}
        required
        />
-      <Form.Label>Hora</Form.Label>
+      
       </Form.Group>
       <Form.Group className="mb-3">
         <Button className="btn-primary" type="submit">
