@@ -10,6 +10,7 @@ import {
   faClock,
   faCircleXmark,
   faCalendarDays,
+  faFolderOpen
 } from "@fortawesome/free-solid-svg-icons";
 
 import style from "./Home.module.css";
@@ -43,6 +44,11 @@ export default function Saidbar() {
       icon: faCalendarDays,
       path: "/dates",
       name: "Crear Citas",
+    },
+    {
+      icon: faFolderOpen,
+      path: "/alldates",
+      name: "Citas Creadas",
     },
   ];
 

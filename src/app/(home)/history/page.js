@@ -8,9 +8,7 @@ import { useState } from 'react';
 import axios from 'axios';
 
 export default function history() {
-/*   const router = useRouter() */
-  /* const { id } = router.query // Obtenemos el id del psicólogo de los parámetros de la URL
- */
+
   const [historial, setHistorial] = useState([])
   const [psicoId, setPsicoId] = useState('')
 
@@ -46,18 +44,21 @@ export default function history() {
           </div>
         </div>
       </div>
+      <div>
+
+      </div>
 
       <div>
         <Table striped bordered hover>
           <thead>
             <tr>
               <th>#</th>
-              <th>email psicologo</th>
+              <th>Email psicólogo</th>
               <th>Paciente</th>
-              <th>fecha</th>
-              <th>hora Inicio</th>
-              <th>hora Final</th>
-              <th>realizada</th>
+              <th>Fecha</th>
+              <th>Hora Inicio</th>
+              <th>Hora Final</th>
+              <th>Realizada</th>
               <th>Comentario</th>
               <th>Disponible</th>
             </tr>
