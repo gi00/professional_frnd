@@ -42,7 +42,7 @@ export default function Saidbar() {
     {
       icon: faCalendarDays,
       path: "/dates",
-      name: "Citas",
+      name: "Crear Citas",
     },
   ];
 
